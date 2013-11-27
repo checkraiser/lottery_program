@@ -1,6 +1,7 @@
 --Ruby program--
 
 The ruby program should be able to
+
 a) Record, one by one, or many at a time by importing from a file, which lottery 
    numbers were sold with their serial number and how many tickets of each combination were sole
    
