@@ -9,8 +9,8 @@ describe "Lottery" do
 	it "read a file text" do
 		l = Lottery.new
 		l = File.open('filetoread').to_read_by_line
-	        l[0] = 12345, 12
-	        l[1] = 99999, 20
+	        l[0].should == 12345, 12
+	        l[1].should == 99999, 20
 		l.length.should ==" #{l.length}ticket were sold!"
 	end
 	
