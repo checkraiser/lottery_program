@@ -5,4 +5,11 @@ describe "Lottery" do
 		l.lottery_number.should  == "12345"
 		l.serial_number.should == "12"
 	end
+	
+	it "has an import CSV file" do
+		require 'CSV gems'
+		CSV.read_by_line('filename')
+		puts " #{count} tickets were sold "
+		
+	end
 end
